@@ -1,0 +1,89 @@
+.member {
+    margin: 20px;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0px 2px 15px rgba(63, 187, 192, 0.1);
+
+}
+
+.member .member-img {
+    position: relative;
+    overflow: hidden;
+}
+
+.member .social {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 40px;
+    opacity: 0;
+    transition: ease-in-out 0.3s;
+    background: rgba(255, 255, 255, 0.85);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.member .social a {
+    transition: color 0.3s;
+    color: #555555;
+    margin: 0 5px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+a:hover {
+
+    border-bottom: 5px solid #43d38eff;
+    border-radius: 10px;
+    border-width: 50%;
+}
+
+
+
+.member .member-info {
+    padding: 25px 15px;
+}
+
+.member .member-info h4 {
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #555555;
+}
+
+.member .member-info span {
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+    color: #aaaaaa;
+}
+
+.member .member-info p {
+    font-style: italic;
+    font-size: 14px;
+    line-height: 26px;
+    color: #777777;
+}
+
+.member:hover .social {
+    opacity: 1;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#doctors {
+    margin-top: 20px;
+    padding: 10px;
+}
